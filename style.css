@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&family=Playfair+Display&display=swap');
+
+header{
+    background-color: rgb(183, 243, 243);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+header ul li{
+    margin: 20px;
+}
+
+.aboutus{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(216, 241, 241);
+}
+
+.aboutus h2{
+    font-size: 35px;
+    font-family: 'Playfair Display', serif;
+    color: rgb(130, 10, 242);
+}
+
+.aboutus p{
+    width: 70%;
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    font-family: 'PT Serif', serif;
+
+}
+
+h2{
+    font-size: 30px;
+    color: rgb(116, 41, 185);
+}
+
+p{
+    font-size: 17px;
+    color: black;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: rgb(184, 239, 239);
+    margin: 10px 0px 10px 0px;
+}
+
+.caja-espiritu{
+    background-image: url(imagenes/espiritu.jpeg);
+    padding: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+}
+
+.caja-financiera{
+    background-image: url(imagenes/eduFinanciera.jpeg);
+    padding: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+}
+
+.caja-trabajo{
+    background-image: url(imagenes/eduTrabajo.jpeg);
+    padding: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+}
+
+.caja{
+    background-color: rgba(255,255,255,0.7);
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#nosotros{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#nosotros iframe{
+    padding: 10px;
+    margin: 20px;
+}
+
+footer p{
+    font-size: 12px;
+}
